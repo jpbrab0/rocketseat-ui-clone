@@ -1,0 +1,73 @@
+body{
+    background-color: var(--skylab-background);
+    color: #ffffff;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: var(--skylab-header);
+    
+    
+}
+header img{
+    margin-left: 100px;
+}
+header .links .profile{
+    
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    margin-left: 100px;
+    align-items: center;
+}
+
+header .links .profile .imgUser img{
+    width: 25%;
+    border: 3px solid #6D56BA;
+    border-radius: 50%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 55px;
+    margin-left: 10px;
+    align-items: center;
+}
+.card{
+    justify-content: center;
+    background-color: var(--skylab-header);
+    height: 330px;
+    padding: 66px 20px;
+    text-align: center;
+    border-radius: 13px;
+    transition: 0.1s;
+    
+}
+.card h1{
+    margin-bottom: -32px;
+    width: 10%;
+    border: 3px solid #04D361;
+    border-radius: 50%;
+}
+.card button{
+    width: 50%;
+    margin-top: 33px;
+    padding: 14px;
+    border-radius: 0 13px 0 13px;
+    background-color: #04D361;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.4s;
+}
+.card button:hover{
+    background-color: rgba(255, 228, 196, 0);
+    color: #ffffff;
+}
+.card:hover{
+    margin-top: -22px;
+    border: 3px solid #6D56BA;
+}

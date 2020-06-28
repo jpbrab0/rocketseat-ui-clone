@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+header{
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background-color: #7159c1;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    margin-left: 30px;
+    text-align: center;
+    
+}
+header div a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+header div a:hover{
+    color: #50fa7b;
+    cursor: pointer;
+    
+    font-size: 26px;
+    line-height: 20px;
+}
+header .socialsMedias a button{
+    border-radius: 7px;
+    color: #7159c1;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 93px;
+    height: 38px;
+    margin: 0px 0px 0px 60px;
+    padding: 0px 30px;
+    transition: 0.8s;
+    cursor: pointer;
+}

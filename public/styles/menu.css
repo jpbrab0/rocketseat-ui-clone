@@ -1,0 +1,78 @@
+#wrapper{
+    margin-top: 55px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#wrapper .description h1{
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#4b4b4b;
+    margin-bottom: 33px;
+    font-weight: bolder;
+    max-width: 430px;
+}
+#wrapper .description p{
+    color: #7159c1;
+    font-size: 18px;
+    max-width: 410px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#wrapper .description a button{
+    font: 16px;
+    background-color: #7159C1;
+    color: white;
+    margin: 15px 0 0;
+    border-radius: 13px;
+    padding: 0 30px;
+    width: 269px;
+    height: 51px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#wrapper .description a button:hover{
+    opacity: 90%;
+}
+#purple{
+    background-color: #7159c1;
+    color: #ffffff;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: 60vh;
+    margin-bottom: 33px;
+}
+#purple .description h1{
+    margin-top: 35px;
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 33px;
+    font-weight: bolder;
+    max-width: 500px;
+}
+#purple .description h2{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 33px;
+    font-weight: bolder;
+    max-width: 430px;
+}
+#purple .description p{
+    color: #ffffff;
+    font-size: 16px;
+    max-width: 510px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+footer p{
+    text-align: center;
+}
+footer p a{
+    color: #7159c1;
+}
