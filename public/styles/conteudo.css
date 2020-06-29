@@ -19,12 +19,12 @@ header .links .profile{
     
     display: grid;
     grid-template-columns:1fr 1fr ;
-    margin-left: 100px;
+    margin-left: 300px;
     align-items: center;
 }
 
 header .links .profile .imgUser img{
-    width: 25%;
+    width: 40%;
     border: 3px solid #6D56BA;
     border-radius: 50%;
 }
@@ -39,20 +39,44 @@ header .links .profile .imgUser img{
 .card{
     justify-content: center;
     background-color: var(--skylab-header);
-    height: 330px;
+    height: 440px;
     padding: 66px 20px;
     text-align: center;
     border-radius: 13px;
     transition: 0.1s;
     
 }
-.card h1{
+.card .number{
+    margin-bottom: 62px;
+    display: flex;
+    justify-content: center;
+}
+.purple .number h1{
     margin-bottom: -32px;
     width: 10%;
-    border: 3px solid #04D361;
-    border-radius: 50%;
+    
+    font-family: sans-serif;
+    border: 3px solid #6D56BA;
+    border-radius: 100%;
 }
-.card button{
+
+.orange .number h1{
+    margin-bottom: -32px;
+    width: 10%;
+    
+    font-family: sans-serif;
+    border: 3px solid #FD951F;
+    border-radius: 100%;
+}
+.green .number h1{
+    margin-bottom: -32px;
+    width: 10%;
+    
+    font-family: sans-serif;
+    border: 3px solid #04D361;
+    border-radius: 100%;
+}
+.green button{
     width: 50%;
     margin-top: 33px;
     padding: 14px;
@@ -61,13 +85,20 @@ header .links .profile .imgUser img{
     border: none;
     cursor: pointer;
     color: #000000;
-    transition: 0.4s;
+    transition: 0.3s;
 }
-.card button:hover{
+.green button:hover{
     background-color: rgba(255, 228, 196, 0);
+    border: 3px solid #04D361;
     color: #ffffff;
 }
-.card:hover{
+.purple:hover{
+    cursor: pointer;
     margin-top: -22px;
     border: 3px solid #6D56BA;
+}
+.orange:hover{
+    cursor: pointer;
+    margin-top: -22px;
+    border: 3px solid #FD951F;
 }
