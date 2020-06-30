@@ -16,7 +16,6 @@ header img{
     margin-left: 100px;
 }
 header .links .profile{
-    
     display: grid;
     grid-template-columns:1fr 1fr ;
     margin-left: 300px;
