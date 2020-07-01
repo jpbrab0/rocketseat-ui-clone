@@ -17,17 +17,17 @@
 ## Apresentação
 Esse projeto não tem **fins Lucrativos**, apenas para aprimorar o conhecimento de certas tecnologias como html, css, node.js, express, nodemon e nunjucks.
 
-# Requesitos & Instalação
-## Requesitos
+# Requisitos & Instalação
+## Requisitos
 Para você baixar o UI-clone você precisa dos seguintes programas:
 
-* [Vscode](https://code.visualstudio.com/) ;
-* [Node.Js](https://nodejs.org/en/) (Recomendado versão 12v ou superior.);
-* [Git bash](https://gitforwindows.org/)(Nas distro Linux e no MacOS já vem instalado o git!).
+* [Vscode](https://code.visualstudio.com/)
+* [Node.Js](https://nodejs.org/en/) (Recomendado versão 12v ou superior.)
+* [Git bash](https://gitforwindows.org/)(Nas distro Linux e no MacOS já vem instalado o git!)
 
 ## Instalação
 
-Após de ter todos os requesitos ,para você instalar precisa dar o seguinte comando no seu terminal
+Após de ter todos os requisitos ,para você instalar precisa dar o seguinte comando no seu terminal
 ```bash
 git clone https://github.com/jpBrabo/rocketseat-ui-clone.git
 ``` 
