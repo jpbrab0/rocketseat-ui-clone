@@ -1,0 +1,27 @@
+{
+  "name": "desafios",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">🚀Rocketseat UI clone</h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpBrabo/rocketseat-ui-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpBrabo/rocketseat-ui-clone/issues"
+  },
+  "homepage": "https://github.com/jpBrabo/rocketseat-ui-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

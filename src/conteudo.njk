@@ -1,0 +1,15 @@
+{% extends "skylab-layout.njk" %}
+{% block content %}
+    <div class="cards">
+        {% for curso in cursos %}
+            <div class="card {{curso.color}}">
+                <div class="number">
+                    <h1>{{curso.id}}</h1>
+                </div>
+                <img src="{{curso.img}}" alt="">
+                <p>{{curso.description1}}</p>
+                <p>{{curso.description2}}</p>
+            </div>
+        {% endfor %}
+
+    {% endblock content %}

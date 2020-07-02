@@ -1,0 +1,34 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+    <div id="wrapper">
+
+        <div class="description">
+            <h1>As melhores tecnologias em programação, direto ao ponto e do jeito certo.</h1>
+            <p>No meio de tanta informação e da quantidade de ferramentas que surgem todos os dias, você precisa de alguém que te leve na direção certa.</p>
+            <a href="https://rocketseat.com.br/starter" target="blank">
+                <button>Quero embarcar nesse foguete</button>
+            </a>
+        </div>
+
+        <img src="https://rocketseat.com.br/static/images/update/melhores-tecnologias.svg" alt="Programando...">
+    </div>
+    <div id="purple">
+        <img src="https://rocketseat.com.br/static/images/update/trofeu-home.svg" alt="Trofeu Rocketseat">
+        <div class="description">
+            <h1>As mesmas tecnologias utilizadas por empresas como:</h1>
+            <h2>Nubank, Netflix, Uber, Instagram e Airbnb</h2>
+            <p>Imagine você dominando as mesmas tecnologias adotadas pelos melhores times do mundo, construindo aplicações de alta performance e se destacando entre os maiores programadores.</p>
+
+        </div>
+    </div>
+    {% block footer %}
+        <footer>
+            <p>Feito com 💜 by
+                <a href="https://github.com/JpBrabo">João Pedro</a>
+                para a
+                <a href="https://rocketseat.com.br">Rocketseat</a>
+            </p>
+        </footer>
+    {% endblock footer %}
+{% endblock content %}

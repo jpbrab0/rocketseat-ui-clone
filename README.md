@@ -8,11 +8,10 @@
 ## Tecnologias utilizadas:
 * Html
 * Css
-### Em breve...
 * Node.js
 * Express
 * Nodemon
-* nunjucks
+* Nunjucks
 
 ## Apresentação
 Esse projeto não tem **fins Lucrativos**, apenas para aprimorar o conhecimento de certas tecnologias como html, css, node.js, express, nodemon e nunjucks.
@@ -32,7 +31,14 @@ Após de ter todos os requisitos ,para você instalar precisa dar o seguinte com
 git clone https://github.com/jpBrabo/rocketseat-ui-clone.git
 ``` 
 1. Após dar este comando abra a pasta dos arquivos no Vscode
-1. Instale o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) e clique em qualquer arquivo html com o botão direito e aperte "Open with Live Server"
+1. E no terminal digite
+```bash
+npm install
+```
+E depois
+```bash
+npm start
+```
 
 Pronto, Agora você pode ver como ficou o UI-clone do site da rocketseat!!!
 
