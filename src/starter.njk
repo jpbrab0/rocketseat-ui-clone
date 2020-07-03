@@ -1,0 +1,13 @@
+{% extends "skylab-layout.njk" %}
+
+{% block content %}
+    <section class="course">
+        {% for curso in cursos %}
+            <div class="module">
+                <img src="{{curso.img}}" alt="{{curso.name}}">
+                <h2>{{curso.title}}</h2>
+                <p>{{curso.author}}</p>
+            </div>
+        {% endfor %}
+    </section>
+{% endblock content %}

@@ -1,0 +1,25 @@
+.course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.module{
+    margin-top: 33px;
+    margin-bottom: 33px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 13px;
+    align-items: center;
+    background-color: rgb(66, 63, 63);
+    border-radius: 13px;
+    border: 2px solid blue;
+    transition: 0.3s;
+}
+.module:hover{
+    cursor: pointer;
+    box-shadow: 7px 7px 7px 7px black;
+}

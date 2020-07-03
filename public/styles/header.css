@@ -23,6 +23,7 @@ header div{
 }
 header div a{
     color: white;
+    opacity: 80%;
     font-size: 18px;
     line-height: 28px;
     margin: 0 16px;
@@ -30,7 +31,8 @@ header div a{
     transition: 0.3s;
 }
 header div a:hover{
-    color: #50fa7b;
+    color: #ffffff;
+    opacity: 100%;
     cursor: pointer;
     
     font-size: 26px;
